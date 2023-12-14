@@ -21,7 +21,7 @@ const data=[
 export const Navbar=()=>{
     return(
         <>
-        <ul className="bg-gray-700 w-[50px] sm:w-[120px] h-[100vh] text-white flex flex-col justify-around align-center">
+        <ul className="bg-gray-700 w-[50px] sm:w-[160px] h-[100vh] text-white flex flex-col justify-around align-center">
               <li  className="w-[100%] flex align-center justify-center">
                     <Link className=" w-[90%] h-[90%] flex align-center justify-center sm:justify-between gap-1 align-center" href="/">
                          <span className="text-[1.2rem]"><GiHamburgerMenu/></span>
