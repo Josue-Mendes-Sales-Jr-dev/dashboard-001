@@ -1,3 +1,4 @@
+import { TopBox } from "@/components/topBox";
 import { Card } from "../../components/Card";
 
 export default function Dashboard(){
@@ -9,6 +10,7 @@ export default function Dashboard(){
           <Card/>
           <Card/>
         </div>
+        <TopBox/>
         </>
     )
 }
