@@ -12,7 +12,7 @@ export default function Layout(props:IDashbardProps){
               <Navbar/>
               <div className="w-[100%] h-[100vh] flex flex-col align-center justify-between">
                 <Search/>
-                  <div className="flex align-center justify-center w-[100%] h-[80vh] pb-5 overflow-x-hidden overflow-y-auto">
+                  <div className="flex align-center justify-center pl-2 w-[100%] h-[80vh] pb-5 overflow-x-hidden overflow-y-auto">
                     { props.children }
                  </div>
               </div>

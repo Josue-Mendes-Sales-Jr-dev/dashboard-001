@@ -3,7 +3,7 @@ import { IoMdPerson } from "react-icons/io";
 export const Card=()=>{
     return(
       <>
-      <div className="flex flex-col align-center justify-center gap-10 px-5 w-[280px] h-[220px] bg-gray-100 shadow-xl shadow-black/30">
+      <div className="flex flex-col align-center justify-center gap-10 px-5 w-[200px] lg:w-[280px] h-[200px] bg-gray-100 shadow-xl shadow-black/30">
            <IoMdPerson className="text-[1.6rem]"/>
            <div className="flex gap-5 align-center justify-around">
               <div>
